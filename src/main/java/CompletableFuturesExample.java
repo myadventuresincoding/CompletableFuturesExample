@@ -9,11 +9,11 @@ public class CompletableFuturesExample {
 
         List<Integer> items = Lists.newArrayList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
-        ItemsResource itemsResource = new ItemsResource();
+        ItemGateway itemGateway = new ItemGateway();
 
         long startTime = System.currentTimeMillis();
 
-        List<Integer> results = itemsResource.getItems(items);
+        List<Integer> results = itemGateway.getItems(items);
 
         System.out.println(String.format("Done in %s ms", (System.currentTimeMillis() - startTime)));
 

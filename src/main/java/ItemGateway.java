@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 
-public class ItemsResource {
+public class ItemGateway {
 
     public List<Integer> getItems(List<Integer> items) {
 
