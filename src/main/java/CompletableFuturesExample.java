@@ -19,6 +19,7 @@ public class CompletableFuturesExample {
 
         System.out.println("Results: " + results.stream().map(Object::toString).collect(Collectors.joining(",")));
 
+        System.exit(0);
     }
 
 }
